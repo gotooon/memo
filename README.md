@@ -5,14 +5,16 @@ flow_mod の作成
 - ユーザテーブルをルックアップして VM に対して packet out
 
 ###コントローラ・ユーザテーブル初期化
-
 - 設定ファイルから読み込むようにする
 - ユーザテーブルの機構を controller に実装
 
 ###ARP パケットが到着したときの実装
-
 - ユーザテーブルをルックアップ
 - source と同ユーザ管理の VM にのみ ARP を packet out する
+
+###参考
+[Module: Trema](http://www.rubydoc.info/github/trema/trema-edge/Trema)  
+[Module: Pio](http://www.rubydoc.info/github/trema/pio/Pio)
 
 ![設計](https://github.com/gotooon/memo/blob/master/memo2.JPG)
 
